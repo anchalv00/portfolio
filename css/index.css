@@ -1,8 +1,12 @@
 body{
-    background-color: aqua;
+    background-color: black;
 }
 
 h1{
-    color:red;
+    color:white;
     font-style: bold;
+}
+
+p{
+    color:white;
 }

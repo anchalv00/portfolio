@@ -41,3 +41,23 @@ h2{
 li{
     font-size: 20px;
 }
+
+* {box-sizing:border-box}
+
+
+.container {
+  width: 50%; 
+  background-color:#3a4555;
+}
+
+.skills {
+  text-align: right; 
+  padding-top: 10px; 
+  padding-bottom: 10px; 
+  color: white; 
+}
+
+.html {width: 50%; background-color: #e945aa;}
+.css {width: 50%; background-color: #e945aa;} 
+.js {width: 30%; background-color: #e945aa;} 
+.python {width: 20%; background-color: #e945aa;} 

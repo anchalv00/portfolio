@@ -11,7 +11,7 @@ body{
   }
   
   
-  a{
+  nav a{
       float:left;
       padding:30px;
       text-decoration:none;
@@ -20,26 +20,46 @@ body{
       font-size: 20px;
   }
   
-  a:hover
+  nav a:hover
   {
     color:#f7b42d;
   
   }
 
-  
-  h1
-  {
-    font-size:40px;
-  font-family: 'Yuji Syuku', serif;}
-  
-  p1{
-    font-size:25px;
-    font-family: 'EB Garamond', serif;
-  }
-  
   .intro
   {
     margin-left:20px;
-    margin-top:150px;
+    margin-top:100px;
   }
   
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+  
+  .title {
+    color: grey;
+    font-size: 18px;
+  }
+  
+  button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: rgb(240, 160, 233);
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+
+  
+  button:hover, a:hover {
+    opacity: 0.7;
+  }
+  </style>

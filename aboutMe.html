@@ -1,21 +1,50 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <!--<link href="./css/index.css" rel="stylesheet" type="text/css" />-->
+    <link href="./css/aboutMe.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-    
-    <nav>
-        <a class = "nav" href=index.html><b>Home</b></a>
-        <a class = "nav" href=aboutMe.html><b>About Me</b></a>
-        <a class = "nav" href=experience.html><b>Experience</b></a>
-	  </nav>
 
-    <p class="intro">I am currently a sophmore at PHS. I take a lot of interest in coding and computer science in general. I would like to go to UCSD to pursue Computer Science.</p>
+    <nav>
+      <a href=index.html><b>Home</b></a>
+      <a href=aboutMe.html><b>About Me</b></a>
+      <a href=experience.html><b>Experience</b></a>
+      <a href=projects.html><b>Projects</b></a>
+      <a href="index.html" style="float:right;">AV PORTFOLIO</a>
+</nav>
+
+
+<div class="row">
+  <div class="column">
+      <table>
+          <tr>
+              <td style="font-size:40px;"><i style="font-size:50px; font-family: 'Satisfy', cursive;">Hi! My name is Anchal!</i><br> I am currently a sophmore at PHS. I take a lot of interest in coding and computer science in general. <br> I would like to go to UCSD to pursue Computer Science.</td>
+          </tr>
+      </table>
+  </div>
+  <div class="column">
+      <table>
+          <tr>
+              <td>
+                <div class="card">
+                <img src="https://media.discordapp.net/attachments/814358449386160158/965127905116053514/Anchal.png" alt="Anchal" style="width:30%">
+                <h1>Anchal V</h1>
+                <p class="title">High School Student</p>
+                <p>PHS</p>
+                <p><button><a href = contact.html>contact</a></button></p>
+              </div>
+            </td>
+          </tr>
+      </table>
+  </div>
+</div>
+
+<!--
+
+<p class="intro">I am currently a sophmore at PHS. I take a lot of interest in coding and computer science in general. I would like to go to UCSD to pursue Computer Science.</p>
 
   
     <div class="card">
@@ -25,15 +54,22 @@
       <p>PHS</p>
       <p><button><a href = contact.html>contact</a></button></p>
     </div>
-
+-->
 
 
  <style>
 
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
 
    body{
-    background-color:#edecec;
-    margin:0;
+    background: linear-gradient(
+    to right,
+    /*where color stops*/ 
+    #c1c3a3 0%, 
+    #c1c3a3 50%, 
+    #dee1fa 50%, 
+    #dee1fa 100%
+    );
   }
   
   .intro
@@ -42,16 +78,17 @@
     margin-top:150px;
   }
 
-  nav
-  {
+  nav{
+    position: fixed;
       width:100%;
       height:70px;
       margin-top:20px;
+      
   }
-  
-  
+ 
+
   nav a{
-      float:left;
+    float:left;
       padding:30px;
       text-decoration:none;
       color:#3a4555;
@@ -61,11 +98,34 @@
   
   nav a:hover
   {
-    color:#f7b42d;
+    color:white;
   
   }
 
+  table{
+  margin-top:0;
+  clear: both;
+  width:100%;
+  height:100vh;
+}
+
+.row{
+  clear: both;
+  display:flex;
   
+}
+
+.column{
+  
+  clear: both;
+  width:50%;
+  flex:50%;
+  padding: 20px;
+}
+
+td{
+  text-align:center;
+}
   
   .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -74,6 +134,8 @@
     margin-top:100px;
     text-align: center;
     font-family: arial;
+    background-color: #faf9e8;
+    margin:auto;
   }
   
   .title {
@@ -87,7 +149,7 @@
     display: inline-block;
     padding: 8px;
     color: black;
-    background-color: rgb(248, 190, 245);
+    background-color: #c1c3a3;
     text-align: center;
     cursor: pointer;
     width: 100%;
@@ -95,6 +157,10 @@
     
   }
   
+a{
+  text-decoration:none;
+  color:black;
+}
 
   button:hover, a:hover {
     opacity: 0.7;
@@ -109,26 +175,9 @@
     font-size:20px;
   }
  </style>
+  
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

@@ -59,14 +59,11 @@ body{
     text-align:center;
   }
 
-  h1
-  {
-    font-size:30px;
-  font-family: 'Yuji Syuku', serif;
-}
+ 
 
 h2{
-    font-family: 'Yuji Syuku', serif;
+  font-family: 'Satisfy', cursive;
+    /*font-family: 'Yuji Syuku', serif;*/
     font-size:30px;
     text-align:left;
 }
@@ -78,11 +75,15 @@ li{
 
 * {box-sizing:border-box}
 
+p{
+  font-size:20px;
+}
 
 .container {
   width: 50%; 
-  background-color:#3a4555;
+  background-color:#faf9e8;
   margin:auto;
+  border: 2px solid black;
 }
 
 .skills {
@@ -92,7 +93,7 @@ li{
   color: white; 
 }
 
-.html {width: 50%; background-color: #e945aa;}
-.css {width: 50%; background-color: #e945aa;} 
-.js {width: 30%; background-color: #e945aa;} 
-.python {width: 20%; background-color: #e945aa;} 
+.html {width: 50%; background-color: #c1c3a3;}
+.css {width: 50%; background-color: #c1c3a3;} 
+.js {width: 30%; background-color: #c1c3a3;} 
+.python {width: 20%; background-color: #c1c3a3;} 

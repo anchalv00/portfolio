@@ -18,7 +18,7 @@ body{
   }
  
 
-  a{
+  .menu{
     float:left;
       padding:30px;
       text-decoration:none;
@@ -27,10 +27,14 @@ body{
       font-size: 20px;
   }
   
-  a:hover
+  .menu:hover
   {
     color:#f5abcf;
   
+  }
+
+  .link{
+    font-size:20px;
   }
 
   table{
